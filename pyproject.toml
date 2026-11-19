@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+# Put the project root on sys.path so `from app import ...` resolves whether
+# tests are run as `pytest` or `python -m pytest`.
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
