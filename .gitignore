@@ -1,0 +1,22 @@
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+
+# Model artifact and data (regenerate via scripts/train.py)
+model/
+data/
+*.joblib
+*.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
